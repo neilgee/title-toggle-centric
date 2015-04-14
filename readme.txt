@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 4.0
 Stable tag: 1.6.2
 
-Turn on/off page titles on a per page basis, and set sitewide defaults from Theme Settings. Must be using the Genesis theme.
+Turn on/off page titles on a per page basis, and set sitewide defaults from Theme Settings. Must be using the Genesis Centric Pro theme.
 
 == Description ==
 
@@ -16,7 +16,6 @@ You can also set sitewide defaults. If you don't want page titles on any pages, 
 
 Finally, if you're comfortable with code you can use the `be_title_toggle_post_types` filter to change the post types this applies to (it only applies to pages by default). 
 
-[Support Forum](https://github.com/billerickson/Genesis-Title-Toggle/issues)
 
 
 == Installation ==
