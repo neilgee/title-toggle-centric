@@ -1,10 +1,10 @@
 === Genesis Title Toggle ===
-Contributors: billerickson
+Contributors: billerickson neilgee
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EDYM76U6BTE5L
 Tags: genesis, genesiswp, title, 
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.6.2
+Tested up to: 4.3
+Stable tag: 1.7.0
 
 Turn on/off page titles on a per page basis, and set sitewide defaults from Theme Settings. Must be using the Genesis Centric Pro theme.
 
@@ -14,7 +14,7 @@ This plugin lets you easily remove the page title from specific pages. Don't wan
 
 You can also set sitewide defaults. If you don't want page titles on any pages, go to Genesis > Theme Settings > Title Toggle and check the appropriate box. Once a post type has the default set to remove, when editing a page you can selectively turn on that page's title.
 
-Finally, if you're comfortable with code you can use the `be_title_toggle_post_types` filter to change the post types this applies to (it only applies to pages by default). 
+Finally, if you're comfortable with code you can use the `be_ng_title_toggle_post_types` filter to change the post types this applies to (it only applies to pages by default). 
 
 
 
@@ -38,6 +38,9 @@ Finally, if you're comfortable with code you can use the `be_title_toggle_post_t
 3. If you check "hide" on Theme Settings, this metabox is displayed on the Edit screen.
 
 == Changelog ==
+
+= 1.7.0 = 
+* Added option to make site title an h1 when editing homepage. More information: http://www.billerickson.net/genesis-h1-front-page/ 
 
 = 1.6.2 = 
 * Fix issue when you have all titles disabled by default
